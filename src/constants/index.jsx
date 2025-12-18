@@ -3,18 +3,18 @@ import BroadcastlyLogo from "../assets/broadcastly-logo.png";
 import LiveStreamerLogo from "../assets/livestreamer-logo.png";
 import CloudCastLogo from "../assets/cloudcast-logo.png";
 
-import streamImage from "../assets/streamer.jpeg";
+import streamImage from "../assets/streamer.jpg";
 import chart from "../assets/chart.png";
-import optimize from "../assets/optimize.jpeg";
-import audienceEngagementImage from "../assets/audience.jpeg";
-import monetizeImage from "../assets/monetize.jpeg";
-import automationImage from "../assets/automation.jpeg";
-import user1 from "../assets/user1.jpeg";
-import user2 from "../assets/user2.jpeg";
-import user3 from "../assets/user3.jpeg";
-import user4 from "../assets/user4.jpeg";
-import user5 from "../assets/user5.jpeg";
-import user6 from "../assets/user6.jpeg";
+import optimize from "../assets/optimize.jpg";
+import audienceEngagementImage from "../assets/audience.jpg";
+import monetizeImage from "../assets/monetize.jpg";
+import automationImage from "../assets/automation.jpg";
+import user1 from "../assets/user1.jpg";
+import user2 from "../assets/user2.jpg";
+import user3 from "../assets/user3.jpg";
+import user4 from "../assets/user4.jpg";
+import user5 from "../assets/user5.jpg";
+import user6 from "../assets/user6.jpg";
 
 import {
   RiBarChart2Line,
@@ -62,9 +62,10 @@ export const HOW_IT_WORKS_CONTENT = {
         "Interact with your audience in real-time through custom alerts, chat overlays, and live notifications.",
       imageSrc: audienceEngagementImage,
       imageAlt: "Audience Engagement",
-      users: [user1, user2, user3, user5],
+      
     },
     {
+      users: [user1, user2, user3, user5],
       title: "Track and Analyze Performance",
       description:
         "Monitor your stream’s performance in real-time with detailed analytics and viewer engagement insights.",

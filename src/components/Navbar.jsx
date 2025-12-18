@@ -20,7 +20,7 @@ const Navbar = () => {
 
         {/* center:nav links */}
         <nav className="hidden md:flex space-x-8">
-          <a href="/" className="hover:text-neutral-200">
+          <a href="#hero" className="hover:text-neutral-200">
             Home
           </a>
           <a href="#works" className="hover:text-neutral-200">

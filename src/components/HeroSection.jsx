@@ -20,7 +20,7 @@ const fadeIn = {
 
 const HeroSection = () => {
   return (
-    <motion.section
+    <motion.section id="hero"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -29,7 +29,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-4 flex flex-col items-center text-center">
         <motion.div
           variants={fadeInUp}
-          className="m-8 border-neutral-800 px-3 py-2 rounded-full text-xs"
+          className="mb-8 border-neutral-800 px-3 py-2 rounded-full text-xs"
         >
           {HERO_CONTENT.badgeText}
         </motion.div>
