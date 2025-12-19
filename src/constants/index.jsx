@@ -170,6 +170,7 @@ export const PLANS_CONTENT = {
         "Custom overlays",
         "Viewer engagement tools",
         "Stream up to 720p",
+        "limited support",
       ],
     },
     {

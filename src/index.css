@@ -8,3 +8,15 @@
 html {
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(20, 20, 20);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(45, 45, 45);
+}

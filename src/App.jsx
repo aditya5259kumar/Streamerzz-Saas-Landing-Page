@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import HowItWorks from "./components/HowItWorks";
-import Features  from "./components/Features";
+import Features from "./components/Features";
+import PricingPlans from "./components/PricingPlans";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <HeroSection />
       <HowItWorks />
       <Features />
+      <PricingPlans />
     </main>
   );
 };

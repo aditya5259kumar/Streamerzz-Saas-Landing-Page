@@ -25,6 +25,7 @@ const Navbar = () => {
               <a
                 href={item.href}
                 key={item.id}
+                onClick={toggleMenu}
                 className="hover:text-neutral-200"
               >
                 {item.title}
@@ -80,6 +81,7 @@ const Navbar = () => {
               <a
                 href={item.href}
                 key={item.id}
+                onClick={toggleMenu}
                 className="hover:text-neutral-200"
               >
                 {item.title}
