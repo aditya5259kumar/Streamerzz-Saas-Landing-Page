@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT, BRAND_LOGOS } from "../constants/index";
-import heroImage from "../assets/hero.jpg";
+import heroImage from "../assets/hero.jpeg";
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -20,7 +20,8 @@ const fadeIn = {
 
 const HeroSection = () => {
   return (
-    <motion.section id="hero"
+    <motion.section
+      id="hero"
       variants={containerVariants}
       initial="hidden"
       animate="visible"

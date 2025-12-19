@@ -3,12 +3,12 @@ import BroadcastlyLogo from "../assets/broadcastly-logo.png";
 import LiveStreamerLogo from "../assets/livestreamer-logo.png";
 import CloudCastLogo from "../assets/cloudcast-logo.png";
 
-import streamImage from "../assets/streamer.jpg";
+import streamImage from "../assets/streamer.jpeg";
 import chart from "../assets/chart.png";
-import optimize from "../assets/optimize.jpg";
-import audienceEngagementImage from "../assets/audience.jpg";
-import monetizeImage from "../assets/monetize.jpg";
-import automationImage from "../assets/automation.jpg";
+import optimize from "../assets/optimize.jpeg";
+import audienceEngagementImage from "../assets/audience.jpeg";
+import monetizeImage from "../assets/monetize.jpeg";
+import automationImage from "../assets/automation.jpeg";
 import user1 from "../assets/user1.jpg";
 import user2 from "../assets/user2.jpg";
 import user3 from "../assets/user3.jpg";
@@ -24,6 +24,14 @@ import {
   RiYoutubeLine,
   RiCalendarLine,
 } from "@remixicon/react";
+
+export const NavData = [
+  { id: 1, title: "Home", href: "#hero" },
+  { id: 2, title: "Works", href: "#works" },
+  { id: 3, title: "Features", href: "#features" },
+  { id: 4, title: "Plans", href: "#plans" },
+  { id: 5, title: "Testimonials", href: "#testimonials" },
+];
 
 export const HERO_CONTENT = {
   badgeText: "🚀 New Feature: Stream Analytics 2.0 Now Live!",
@@ -62,7 +70,6 @@ export const HOW_IT_WORKS_CONTENT = {
         "Interact with your audience in real-time through custom alerts, chat overlays, and live notifications.",
       imageSrc: audienceEngagementImage,
       imageAlt: "Audience Engagement",
-      
     },
     {
       users: [user1, user2, user3, user5],
