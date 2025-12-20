@@ -44,7 +44,7 @@ const Testimonials = () => {
               },
             },
           }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
         >
           {TESTIMONIALS_CONTENT.reviews.map((review, index) => (
             <motion.div
